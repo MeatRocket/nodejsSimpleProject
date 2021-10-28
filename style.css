@@ -1,0 +1,65 @@
+.myclass{
+  position:absolute;
+  color : #ffffff;
+  width: 20%;
+  top:35%;
+  left:45%;
+  margin-top:-150px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,1) 0%, rgba(214,189,13,1) 100%);
+}
+button{
+        background: transparent !important;
+        border: transparent !important;
+
+        
+}
+#show{
+  text-align: center;
+  margin-top: 12%;
+  font-size: 24px;
+  font-weight: bold;
+}
+.btn-outline-light{
+  color: #ffffff !important;
+}
+
+.btn{
+  border-radius: .69rem;
+}
+
+th {
+  font-size: 20px;
+  text-align: center;
+  height: 54px;
+}
+tr:hover {
+  background-color: rgba(189, 188, 188, 0.336);
+}
+
+td {
+  font-size: 14px;
+  text-align: center;
+  height: 36px;
+  vertical-align: center;
+}
+.table{
+  font-weight: bold;
+  color: #ffffff !important;
+}
+table{
+  margin-top: 50px;
+  font-weight: bold;
+  border: 1px solid  #ffffff;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  color: #ffffff !important;
+  width: 100%;
+}
+p{
+  margin-top: 100px;
+}
