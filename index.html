@@ -52,7 +52,7 @@
           thead.appendChild(row_1);
           
           
-          fetch('http://localhost:3000/Users')
+          fetch('https://dry-mesa-46392.herokuapp.com/Users')
           .then(response => response.json())
           .then(json => {
             for (let index = 0; index < json.length; index++){
@@ -74,7 +74,7 @@
           function Get_User(){
             var x = document.getElementById("email").value;
             var z = document.getElementById("show");
-            fetch('http://localhost:3000/Users')
+            fetch('https://dry-mesa-46392.herokuapp.com/Users')
           .then(response => response.json())
           .then(json => {
             for (let index = 0; index < json.length; index++) {
@@ -123,7 +123,7 @@
         redirect: 'follow'
       };
 
-      fetch("http://localhost:3000/AddUser", requestOptions)
+      fetch("https://dry-mesa-46392.herokuapp.com/Adduser", requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
@@ -157,7 +157,7 @@
           redirect: 'follow'
         };
 
-        fetch("http://localhost:3000/Authenticate", requestOptions)
+        fetch("https://dry-mesa-46392.herokuapp.com/Authenticate", requestOptions)
           .then(response => response.text())
           .then(result => {
             alert(result);
